@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/jorgeorm/js-the-goodparts/issues"
   },
-  "homepage": "https://github.com/jorgeorm/js-the-goodparts#readme"
+  "homepage": "https://github.com/jorgeorm/js-the-goodparts#readme",
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-google": "^0.7.1"
+  }
 }
