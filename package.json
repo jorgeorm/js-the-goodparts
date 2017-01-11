@@ -1,0 +1,23 @@
+{
+  "name": "js-goodparts",
+  "version": "0.0.1",
+  "description": "Project generated to run all the examples from the Book Javascript the Goodparts.",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgeorm/js-the-goodparts.git"
+  },
+  "keywords": [
+    "Javascript",
+    "ecma5"
+  ],
+  "author": "Jorge Ordoñez Mendez",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jorgeorm/js-the-goodparts/issues"
+  },
+  "homepage": "https://github.com/jorgeorm/js-the-goodparts#readme"
+}
