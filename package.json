@@ -4,6 +4,7 @@
   "description": "Project generated to run all the examples from the Book Javascript the Goodparts.",
   "main": "server.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "repository": {
