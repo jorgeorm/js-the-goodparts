@@ -101,6 +101,36 @@ class Functions {
     }
   }
 
+  /**
+   * Performs a test on the arguments array
+   */
+  testArguments() {
+    console.log('=== Using the pseudo array "arguments"');
+    const that = this;
+
+    /**
+     * Sums the parameters provided
+     * @param {rest} args elements that are going to be summed
+     * @return {number}
+     */
+    const sum = function(...args) {
+      let total = 0;
+      let i = 0;
+
+      for(i = 0; i < args.length; i++) {
+        total += args[i];
+      }
+
+      return total;
+    };
+
+    console.log(
+      '=> sum function without params',
+      'uses the arguments pseudoarray to do a sum of all elements in an array'
+    );
+    console.log('=> sum(1, 2, 3, 4, 5, 6) =', sum(1, 2, 3, 4, 5, 6));
+  }
+
 }
 
 module.exports = Functions;

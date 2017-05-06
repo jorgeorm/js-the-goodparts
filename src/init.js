@@ -1,5 +1,5 @@
-const Objects = require('./playground/objects');
-const Functions = require('./playground/functions');
+var Objects = require('./playground/objects');
+var Functions = require('./playground/functions');
 
 Function.prototype.method = (name, func) => {
    this.prototype[name] = func;
@@ -27,3 +27,4 @@ if (typeof Object.create !== 'function') {// If no create function is created
 // Chapter 3: Functions
 const funInstance = new Functions();
 funInstance.testInvocation();
+funInstance.testArguments();
